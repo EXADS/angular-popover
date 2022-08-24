@@ -1,4 +1,6 @@
-@import '@angular/material/prebuilt-themes/indigo-pink.css';
+.purple-green-theme {
+  @import '@angular/material/prebuilt-themes/indigo-pink.css';
+}
 @import './app/core/themes/deeppurple-amber';
 @import './app/core/themes/pink-bluegrey';
 @import './app/core/themes/pink-grey';
