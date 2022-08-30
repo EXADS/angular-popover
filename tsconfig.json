@@ -23,9 +23,16 @@
       "angular-popover": [
         "dist/material-extended/mde",
         "dist/material-extended/mde/mde"
+      ],
+      "@exogroup/*": [
+        "libs/*"
       ]
     }
   },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true

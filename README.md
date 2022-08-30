@@ -23,10 +23,6 @@ If you'd like to contribute please create an issue or pull request.
 
 ### Examples
 
-**Material theme picker**
-
-[![Material theme picker](https://media.giphy.com/media/jsxheZJXN1346GD5St/giphy.gif)](https://stackblitz.com/edit/angular-popover-demo)
-
 **Standard popover**
 
 ![image](https://cloud.githubusercontent.com/assets/10200431/22394189/02e9b21e-e511-11e6-9f91-c6b470a6b212.png)
@@ -45,9 +41,9 @@ If you'd like to contribute please create an issue or pull request.
 ### Installation
 Install npm package using:
 
-`yarn add angular-popover`
+`yarn add @exogroup/angular-popover`
 or
-`npm install angular-popover`
+`npm install @exogroup/angular-popover`
 
 Install required packages @angular/cdk
 
@@ -69,7 +65,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { MdePopoverModule } from 'angular-popover';
+import { MdePopoverModule } from '@exogroup/angular-popover';
 
 @NgModule({
   declarations: [

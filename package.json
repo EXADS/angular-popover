@@ -1,15 +1,12 @@
 {
-  "name": "angular-popover",
+  "name": "@exogroup/angular-popover",
   "description": "Angular Material Extended",
   "version": "1.0.0",
-  "author": {
-    "name": "Joe Jordan Brown",
-    "email": "joe.jordan.brown@gmail.com"
-  },
+  "author": "Joe Jordan Brown <joe.jordan.brown@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/EXADS/angular-popover"
+    "url": "git+https://github.com/EXADS/angular-popover.git"
   },
   "bugs": {
     "url": "https://github.com/EXADS/angular-popover/issues"
@@ -33,15 +30,16 @@
     "start": "npm run build:library && npm run serve",
     "serve": "ng serve",
     "build": "ng build",
-    "build:library": "ng build angular-popover",
-    "build:library:prod": "ng build angular-popover --configuration production",
+    "build:library": "ng build @exogroup/angular-popover",
+    "build:library:prod": "ng build @exogroup/angular-popover --configuration production",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "release": "standard-version",
     "release:alpha": "standard-version --prerelease alpha",
     "release:beta": "standard-version --prerelease beta",
-    "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points"
+    "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points",
+    "publish:package": "npm run build:library:prod && cd dist/material-extended/mde && npm publish && cd ../../../"
   },
   "private": true,
   "dependencies": {
@@ -82,5 +80,7 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.6.4"
-  }
+  },
+  "homepage": "https://github.com/EXADS/angular-popover#readme",
+  "main": "index.js"
 }

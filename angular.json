@@ -111,7 +111,7 @@
         }
       }
     },
-    "angular-popover": {
+    "@exogroup/angular-popover": {
       "root": "projects/material-extended/mde",
       "sourceRoot": "projects/material-extended/mde/src",
       "projectType": "library",

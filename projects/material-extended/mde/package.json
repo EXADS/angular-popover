@@ -1,5 +1,5 @@
 {
-  "name": "angular-popover",
+  "name": "@exogroup/angular-popover",
   "version": "4.0.0",
   "dependencies": {
     "tslib": "^2.0.0"
